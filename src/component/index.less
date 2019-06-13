@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.nav-footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid #ccc;
+  height: 56px;
+  display: flex;
+  a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-decoration: none;
+    color: black;
+    &.active{
+      color: blue;
+    }
+    .iconfont{
+      font-size: 20px;
+    }
+  }
+}
